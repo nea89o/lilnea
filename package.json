@@ -1,0 +1,17 @@
+{
+	"type": "module",
+	"dependencies": {
+		"@types/node": "^22.13.5",
+		"discord.js": "^14.18.0",
+		"dotenv": "^16.4.7",
+		"typescript": "^5.7.3"
+	},
+	"scripts": {
+		"start": "node --experimental-strip-types src/index.ts"
+	},
+	"engines": {
+		"node": ">= 22.6.0",
+		"pnpm": ">= 10.2.0"
+	},
+	"packageManager": "pnpm@10.2.0"
+}
