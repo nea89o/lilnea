@@ -1,4 +1,5 @@
 import { client } from "./client.ts";
+import { evalCommand } from "./commands/eval.ts";
 import { CONFIG } from "./config.ts";
 import { type CommandContext, CommandHost } from "./util/command.ts";
 
@@ -18,6 +19,7 @@ commandHost.register(ping, {
 	],
 	description: 'Ping the bot to check if it is online'
 })
+commandHost.addCommand(evalCommand)
 
 client.on('interactionCreate', (it) => commandHost.onCommand(it));
 client.once('ready', async () => {
