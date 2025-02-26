@@ -11,6 +11,12 @@ importers:
       '@types/node':
         specifier: ^22.13.5
         version: 22.13.5
+      acorn:
+        specifier: ^8.14.0
+        version: 8.14.0
+      astring:
+        specifier: ^1.9.0
+        version: 1.9.0
       discord.js:
         specifier: ^14.18.0
         version: 14.18.0
@@ -72,6 +78,15 @@ packages:
   '@vladfrangu/async_event_emitter@2.4.6':
     resolution: {integrity: sha512-RaI5qZo6D2CVS6sTHFKg1v5Ohq/+Bo2LZ5gzUEwZ/WkHhwtGTCB/sVLw8ijOkAUxasZ+WshN/Rzj4ywsABJ5ZA==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
+
+  acorn@8.14.0:
+    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  astring@1.9.0:
+    resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
+    hasBin: true
 
   discord-api-types@0.37.119:
     resolution: {integrity: sha512-WasbGFXEB+VQWXlo6IpW3oUv73Yuau1Ig4AZF/m13tXcTKnMpc/mHjpztIlz4+BM9FG9BHQkEXiPto3bKduQUg==}
@@ -193,6 +208,10 @@ snapshots:
       '@types/node': 22.13.5
 
   '@vladfrangu/async_event_emitter@2.4.6': {}
+
+  acorn@8.14.0: {}
+
+  astring@1.9.0: {}
 
   discord-api-types@0.37.119: {}
 
