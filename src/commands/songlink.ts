@@ -3,6 +3,7 @@ import { createCommand, type CommandContext } from "../util/command.ts";
 import { makeBaseEmbed } from "../util/embeds.ts";
 import { lookupSongByLink, type SongLinkSchema } from "../util/songlink.ts";
 import { chunkArray } from "../util/arrays.ts";
+import { pascalToWords } from "../util/strings.ts";
 
 async function songLinkFunc(
 	context: CommandContext,
@@ -29,7 +30,7 @@ async function songLinkFunc(
 				style: ButtonStyle.Link,
 				url: link.url,
 				emoji: '🎵',
-				label: platform
+				label: pascalToWords(platform)
 			}))
 	const chunkedButtons = chunkArray(buttons, 5);
 	const rows = chunkedButtons.map(rowButtons =>
