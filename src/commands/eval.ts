@@ -5,6 +5,7 @@ import { inspect } from "node:util";
 import { parse as acornParse } from 'acorn'
 import { generate } from "astring";
 import type { ModuleDeclaration, Program, Statement } from "acorn";
+import { makeBaseEmbed } from "../util/embeds.ts";
 
 
 function transformLastInBlock<T extends Statement | ModuleDeclaration>(
@@ -60,7 +61,7 @@ async function evalFunction(context: CommandContext, expression: string) {
 	const response = await context.interaction.deferReply({});
 	let mappedCode: string | null = null
 	function baseEmbed() {
-		const builder = new EmbedBuilder()
+		const builder = makeBaseEmbed()
 			.setTitle("Evaluating expression")
 			.addFields(
 				{ name: '📄 Code', value: "```js\n" + escapeCodeBlock(expression) + "\n```" },

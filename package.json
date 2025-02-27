@@ -6,7 +6,8 @@
 		"astring": "^1.9.0",
 		"discord.js": "^14.18.0",
 		"dotenv": "^16.4.7",
-		"typescript": "^5.7.3"
+		"typescript": "^5.7.3",
+		"zod": "^3.24.2"
 	},
 	"scripts": {
 		"start": "node --experimental-strip-types src/index.ts"

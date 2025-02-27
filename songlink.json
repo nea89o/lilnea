@@ -1,0 +1,212 @@
+{
+	"entityUniqueId": "YOUTUBE_VIDEO::JUGSoAipkvU",
+	"userCountry": "US",
+	"pageUrl": "https://song.link/y/JUGSoAipkvU",
+	"entitiesByUniqueId": {
+		"AMAZON_SONG::B073MM9N1S": {
+			"id": "B073MM9N1S",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage",
+			"thumbnailUrl": "https://m.media-amazon.com/images/I/611vcoyr3qL.jpg",
+			"thumbnailWidth": 500,
+			"thumbnailHeight": 496,
+			"apiProvider": "amazon",
+			"platforms": [
+				"amazonMusic",
+				"amazonStore"
+			]
+		},
+		"ANGHAMI_SONG::2163393": {
+			"id": "2163393",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage",
+			"thumbnailUrl": "https://artwork.anghcdn.co/cover/316713/320",
+			"thumbnailWidth": 1024,
+			"thumbnailHeight": 1024,
+			"apiProvider": "anghami",
+			"platforms": [
+				"anghami"
+			]
+		},
+		"BOOMPLAY_SONG::48469078": {
+			"id": "48469078",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage",
+			"thumbnailUrl": "https://source.boomplaymusic.com/group10/M00/11/19/d5393c9edbd548f7bcc3398c98fe308b_464_464.jpg",
+			"thumbnailWidth": 464,
+			"thumbnailHeight": 464,
+			"apiProvider": "boomplay",
+			"platforms": [
+				"boomplay"
+			]
+		},
+		"DEEZER_SONG::2536136": {
+			"id": "2536136",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage",
+			"thumbnailUrl": "https://cdns-images.dzcdn.net/images/cover/efefdd5d6846c03df9edcb62b8c0838c/500x500-000000-80-0-0.jpg",
+			"thumbnailWidth": 500,
+			"thumbnailHeight": 500,
+			"apiProvider": "deezer",
+			"platforms": [
+				"deezer"
+			]
+		},
+		"ITUNES_SONG::1442239298": {
+			"id": "1442239298",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage",
+			"thumbnailUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3d/f2/77/3df277bb-0e78-a05b-807d-da9e08701e12/00042283543720.rgb.jpg/512x512bb.jpg",
+			"thumbnailWidth": 512,
+			"thumbnailHeight": 512,
+			"apiProvider": "itunes",
+			"platforms": [
+				"appleMusic",
+				"itunes"
+			]
+		},
+		"NAPSTER_SONG::tra.57823672": {
+			"id": "tra.57823672",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage",
+			"thumbnailUrl": "https://direct.rhapsody.com/imageserver/images/alb.57823668/385x385.jpeg",
+			"thumbnailWidth": 385,
+			"thumbnailHeight": 385,
+			"apiProvider": "napster",
+			"platforms": [
+				"napster"
+			]
+		},
+		"SOUNDCLOUD_SONG::252840215": {
+			"id": "252840215",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage",
+			"thumbnailUrl": "https://i1.sndcdn.com/artworks-WWsTL02FBg3H-0-t500x500.jpg",
+			"thumbnailWidth": 500,
+			"thumbnailHeight": 500,
+			"apiProvider": "soundcloud",
+			"platforms": [
+				"soundcloud"
+			]
+		},
+		"SPOTIFY_SONG::2hUINMzSnrhcqpdcWiY0oa": {
+			"id": "2hUINMzSnrhcqpdcWiY0oa",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage",
+			"thumbnailUrl": "https://i.scdn.co/image/ab67616d0000b27351bf9a4f9aad335ae9a031fa",
+			"thumbnailWidth": 640,
+			"thumbnailHeight": 640,
+			"apiProvider": "spotify",
+			"platforms": [
+				"spotify"
+			]
+		},
+		"TIDAL_SONG::4017337": {
+			"id": "4017337",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage",
+			"thumbnailUrl": "https://resources.tidal.com/images/30466d9a/df45/4d96/a930/63ecf980754e/640x640.jpg",
+			"thumbnailWidth": 640,
+			"thumbnailHeight": 640,
+			"apiProvider": "tidal",
+			"platforms": [
+				"tidal"
+			]
+		},
+		"YOUTUBE_VIDEO::JUGSoAipkvU": {
+			"id": "JUGSoAipkvU",
+			"type": "song",
+			"title": "The Great Commandment",
+			"artistName": "Camouflage - Topic",
+			"thumbnailUrl": "https://i.ytimg.com/vi/JUGSoAipkvU/hqdefault.jpg",
+			"thumbnailWidth": 480,
+			"thumbnailHeight": 360,
+			"apiProvider": "youtube",
+			"platforms": [
+				"youtube",
+				"youtubeMusic"
+			]
+		}
+	},
+	"linksByPlatform": {
+		"amazonMusic": {
+			"country": "US",
+			"url": "https://music.amazon.com/albums/B073HXHMFG?trackAsin=B073MM9N1S",
+			"entityUniqueId": "AMAZON_SONG::B073MM9N1S"
+		},
+		"amazonStore": {
+			"country": "US",
+			"url": "https://amazon.com/dp/B073MM9N1S",
+			"entityUniqueId": "AMAZON_SONG::B073MM9N1S"
+		},
+		"anghami": {
+			"country": "US",
+			"url": "https://play.anghami.com/song/2163393?refer=linktree",
+			"entityUniqueId": "ANGHAMI_SONG::2163393"
+		},
+		"boomplay": {
+			"country": "US",
+			"url": "https://www.boomplay.com/songs/48469078",
+			"entityUniqueId": "BOOMPLAY_SONG::48469078"
+		},
+		"deezer": {
+			"country": "US",
+			"url": "https://www.deezer.com/track/2536136",
+			"entityUniqueId": "DEEZER_SONG::2536136"
+		},
+		"appleMusic": {
+			"country": "US",
+			"url": "https://geo.music.apple.com/us/album/_/1442239286?i=1442239298&mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+			"nativeAppUriMobile": "music://itunes.apple.com/us/album/_/1442239286?i=1442239298&mt=1&app=music&ls=1&at=1000lHKX&ct=api_uri_m&itscg=30200&itsct=odsl_m",
+			"nativeAppUriDesktop": "itmss://itunes.apple.com/us/album/_/1442239286?i=1442239298&mt=1&app=music&ls=1&at=1000lHKX&ct=api_uri_d&itscg=30200&itsct=odsl_m",
+			"entityUniqueId": "ITUNES_SONG::1442239298"
+		},
+		"itunes": {
+			"country": "US",
+			"url": "https://geo.music.apple.com/us/album/_/1442239286?i=1442239298&mt=1&app=itunes&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+			"nativeAppUriMobile": "itmss://itunes.apple.com/us/album/_/1442239286?i=1442239298&mt=1&app=itunes&ls=1&at=1000lHKX&ct=api_uri_m&itscg=30200&itsct=odsl_m",
+			"nativeAppUriDesktop": "itmss://itunes.apple.com/us/album/_/1442239286?i=1442239298&mt=1&app=itunes&ls=1&at=1000lHKX&ct=api_uri_d&itscg=30200&itsct=odsl_m",
+			"entityUniqueId": "ITUNES_SONG::1442239298"
+		},
+		"napster": {
+			"country": "US",
+			"url": "https://play.napster.com/track/tra.57823672",
+			"entityUniqueId": "NAPSTER_SONG::tra.57823672"
+		},
+		"soundcloud": {
+			"country": "US",
+			"url": "https://soundcloud.com/camouflage-official/the-great-commandment-1",
+			"entityUniqueId": "SOUNDCLOUD_SONG::252840215"
+		},
+		"spotify": {
+			"country": "US",
+			"url": "https://open.spotify.com/track/2hUINMzSnrhcqpdcWiY0oa",
+			"nativeAppUriDesktop": "spotify:track:2hUINMzSnrhcqpdcWiY0oa",
+			"entityUniqueId": "SPOTIFY_SONG::2hUINMzSnrhcqpdcWiY0oa"
+		},
+		"tidal": {
+			"country": "US",
+			"url": "https://listen.tidal.com/track/4017337",
+			"entityUniqueId": "TIDAL_SONG::4017337"
+		},
+		"youtube": {
+			"country": "US",
+			"url": "https://www.youtube.com/watch?v=JUGSoAipkvU",
+			"entityUniqueId": "YOUTUBE_VIDEO::JUGSoAipkvU"
+		},
+		"youtubeMusic": {
+			"country": "US",
+			"url": "https://music.youtube.com/watch?v=JUGSoAipkvU",
+			"entityUniqueId": "YOUTUBE_VIDEO::JUGSoAipkvU"
+		}
+	}
+}
