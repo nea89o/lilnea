@@ -1,6 +1,7 @@
 import { client } from "./client.ts";
 import { evalCommand } from "./commands/eval.ts";
 import { songLinkCommand } from "./commands/songlink.ts";
+import { sourceCommand } from "./commands/source.ts";
 import { CONFIG } from "./config.ts";
 import { type CommandContext, CommandHost } from "./util/command.ts";
 
@@ -22,6 +23,7 @@ commandHost.register(ping, {
 })
 commandHost.addCommand(evalCommand)
 commandHost.addCommand(songLinkCommand)
+commandHost.addCommand(sourceCommand)
 
 client.on('interactionCreate', (it) => commandHost.onCommand(it));
 client.once('ready', async () => {

@@ -9,6 +9,9 @@ export function titleCase(str: string): string {
 export function unwords(str: string[]): string {
 	return str.join(' ')
 }
+export function words(str: string): string[]{
+	return str.split(" ")
+}
 
 export function pascalToWords(str: string): string {
 	return unwords(fromPascalCase(str).map(titleCase))
